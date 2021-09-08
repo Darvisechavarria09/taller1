@@ -1,8 +1,8 @@
 //CLIENTE (VOY PARA EL RESTAURANTE)
 //RESTAURANTE=SERVIDOR DE SPOTIFY
-let uri="https://api.spotify.com/v1/artists/4gzpq5DPGxSnKTe4SA8HAU/top-tracks?market=us";
+let uri="https://api.spotify.com/v1/artists/0du5cEVh5yTK9QJze8zA0C/top-tracks?market=us";
 
-let token="Bearer BQDu6oZF3ecSxBLNApr0Dj4r5-_V-qr8AwLN0RoMjDpTkWf12u6H_gHY9Af80hUL-BEnE8EC_X_gjJLv96e-y-tq_y6G5N9-e5UG94jyL3U7BUfHrSNSpaMtkyxx1X_1-zoxFnqzViufqD5FM9M";
+let token="Bearer BQB0j4SZbInrEyu-EO16HfyNA5T-pX8K99sAnlxbRzSWim3-J1sJfCsmb-lLobebGgf5MoBF3zQXe01KtUYe6gknQtWhhmyAxdCw09yRWCfZT0nMx-Za3KsJTodxOMjVPUg9sur2XOQusCZnhsJAVI5G4sdblf7ZcSM";
 
 let parametrosEnvio={
     method:"GET",
