@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SpotiMusic</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/keyframes.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
-<body class="bg-dark">
+<body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark border">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-2">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">SpotiMusic</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,20 +24,20 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link active" href="#">Songs</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Género
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">More
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><a class="dropdown-item" href="#">Biography</a></li>
+                      <li><a class="dropdown-item" href="#">popularity</a></li>
+                      <li><a class="dropdown-item" href="#">musical genres</a></li>
+                      <li><a class="dropdown-item" href="#">influences</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
+                    <a class="nav-link active">Images</a>
                   </li>
                 </ul>
                 <form class="d-flex">
@@ -45,8 +48,22 @@
             </div>
           </nav>
     </header>
-    <hr>
+    
     <main>
+      <div class="slider">
+        <ul>
+          <li><img src="images/carru4.jpg" alt="Bruno Mars" ></li>
+          <li><img src="images/carru1.jpg" alt="Bruno Mars"></li>
+          <li><img src="images/carru2.jpg" alt="Bruno Mars"></li>
+          <li><img src="images/carru3.jpg" alt="Bruno Mars"></li>
+        </ul>
+      </div>
+      <div class="reseña">
+        <p>Peter Gene Hernandez (Honolulu, Hawái, 8 de octubre de 1985), conocido artísticamente como Bruno Mars, es un cantante, compositor, productor musical y bailarín estadounidense.</p>
+        <p>Mars comenzó a crear música desde una edad muy temprana y actuó en muchos escenarios de su pueblo natal a lo largo de su niñez realizando imitaciones. Se graduó de la escuela secundaria y se mudó a Los Ángeles para proseguir con su carrera musical.</p>
+        <p>música se caracteriza por mostrar una amplia variedad de estilos e influencias y contiene elementos de géneros musicales variados. Ha trabajado con una variedad de artistas de diferentes géneros; Mars reconoce las influencias que sus colaboraciones han tenido en su propia música. Cuando era niño fue muy influenciado por artistas como Elvis Presley y con frecuencia se hacía pasar por este artista desde una edad temprana. Mars también incorpora sonidos inspirados en el reggae, funk, R&B, hip hop, rock, entre otros. Jon Caramanica de The New York Times se refiere a Mars como «uno de los cantantes más versátiles y accesibles en el pop».</p>
+        <p>Mars también forma parte del trío de compositores bautizados como The Smeezingtons, formado junto a Philip Lawrence y Ari Levine. Ha escrito letras para una decena de artistas como Sugababes, Adele, Flo Rida, Cee Lo Green y Taemin, integrante del grupo SHINee.</p>
+      </div>
         <div class="container">
             <div class="row row-cols-1 row-cols-md-3 g-4" id="fila">
             </div>
@@ -54,6 +71,7 @@
     </main>
 
     <script src="servicio2.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </body>
 </html>
