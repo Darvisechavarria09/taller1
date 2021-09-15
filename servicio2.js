@@ -75,13 +75,20 @@ function pintarDatos(datos){
         imagen.classList.add("card-img-top")
         imagen.src=cancion.album.images[0].url
 
+        let nombre=document.createElement("h5")
+        nombre.classList.add("card-title","text-center")
+        nombre.textContent=cancion.name;
+
         let audio=document.createElement("audio")
         audio.classList.add("w100")
         audio.src=cancion.preview_url;
         audio.setAttribute("controls","controls");
 
+        
+
         //PADRES E HIJOS
         tarjeta.appendChild(imagen)
+        tarjeta.appendChild(nombre)
         tarjeta.appendChild(audio)
         columna.appendChild(tarjeta)
         fila.appendChild(columna)

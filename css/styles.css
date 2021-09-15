@@ -7,15 +7,6 @@ body{
     background: transparent !important;
 }
 
-
-
-
-
-
-
-
-
-
 .slider
 {
     width: 90%;
@@ -65,4 +56,8 @@ body{
 .reseña p{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     size: 10px;
+}
+
+.reseña h1{
+    text-align: center;
 }
